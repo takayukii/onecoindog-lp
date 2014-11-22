@@ -1,5 +1,4 @@
 <?php
-debug($_SERVER);
 
 $config = [
 /**
@@ -218,7 +217,7 @@ $config = [
 			* the following line and set the port accordingly
 			*/
 			//'port' => 'nonstandard_port_number',
-			'username' => 'b198e185697b06',
+			'username' => $_SERVER['DBUSER'],
 			'password' => $_SERVER['PASSWORD'],
 			'database' => $_SERVER['DB'],
 			'encoding' => 'utf8',

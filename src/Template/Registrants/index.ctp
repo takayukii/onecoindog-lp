@@ -11,6 +11,7 @@
 			<th><?= $this->Paginator->sort('id') ?></th>
 			<th><?= $this->Paginator->sort('name') ?></th>
 			<th><?= $this->Paginator->sort('email') ?></th>
+			<th><?= $this->Paginator->sort('comment') ?></th>
 			<th><?= $this->Paginator->sort('created') ?></th>
 			<th><?= $this->Paginator->sort('updated') ?></th>
 			<th class="actions"><?= __('Actions') ?></th>
@@ -22,6 +23,7 @@
 			<td><?= $this->Number->format($registrant->id) ?></td>
 			<td><?= h($registrant->name) ?></td>
 			<td><?= h($registrant->email) ?></td>
+			<td><?= h($registrant->comment) ?></td>
 			<td><?= h($registrant->created) ?></td>
 			<td><?= h($registrant->updated) ?></td>
 			<td class="actions">
