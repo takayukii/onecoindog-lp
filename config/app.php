@@ -218,7 +218,7 @@ $config = [
 			* the following line and set the port accordingly
 			*/
 			//'port' => 'nonstandard_port_number',
-			'username' => $_SERVER['USER'],
+			'username' => 'b198e185697b06',
 			'password' => $_SERVER['PASSWORD'],
 			'database' => $_SERVER['DB'],
 			'encoding' => 'utf8',
