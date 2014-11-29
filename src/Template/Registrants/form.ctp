@@ -14,9 +14,24 @@
 					echo $this->Form->input('email', ['class' => 'input-block-level', 'label' => false, 'placeholder' => 'メールアドレス']);
 					echo $this->Form->input('comment', ['class' => 'input-block-level', 'rows' => 10, 'label' => false, 'placeholder' => 'コメント等ありましたら']);
 				?>
-			<?= $this->Form->button(__('Submit'), ['class' => 'custom-btn']) ?>
+			<?php // echo $this->Form->button(__('Submit'), ['class' => 'custom-btn']); ?>
+			<a href="#myModal" role="button" class="custom-btn" data-toggle="modal">Submit</a>
 			<?= $this->Form->end() ?>
 		</div>
 
 	</div> <!-- /row-fluid -->
 </div> <!-- /container -->
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">Modal header</h3>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
+	<div class="modal-footer">
+		<button class="custom-btn" data-dismiss="modal" aria-hidden="true">Close</button>
+	</div>
+</div>

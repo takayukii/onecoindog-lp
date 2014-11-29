@@ -114,109 +114,99 @@ $cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 	</div><!-- /grid-features -->
 
 
-	<div class="pricing-table">
-		<div class="container">
-			<div class="row-fluid">
-
-				<div class="span6">
-					<div class="plan plan-1">
-						<div class="title-wrapper">
-							<h4 class="title">$12</h4>
-						</div>
-						<ul class="unstyled text-center">
-							<li><a href="#">Responsive</a></li>
-							<li><a href="#">HTML 5</a></li>
-							<li><a href="#">CSS 3</a></li>
-							<li><a href="#">Multi-Pages</a></li>
-							<li><a href="#">Landing page</a></li>
-							<li><a href="#">24/7 Support</a></li>
-						</ul>
-						<div class="pricing-btn">
-							<a class="custom-btn">Buy now</a>
-						</div>
-					</div>
-				</div> <!-- /span6 -->
-
-				<div class="span6">
-					<div class="plan plan-2">
-						<div class="title-wrapper">
-							<h4 class="title">$9</h4>
-						</div>
-						<ul class="unstyled text-center">
-							<li><a href="#">Responsive</a></li>
-							<li><a href="#">HTML 5</a></li>
-							<li><a href="#">CSS 3</a></li>
-							<li><a href="#">Multi-Pages</a></li>
-							<li><a href="#">Free custom design</a></li>
-							<li><a href="#">Landing page</a></li>
-							<li><a href="#">24/7 Support</a></li>
-						</ul>
-						<div class="pricing-btn">
-							<a class="custom-btn">Buy now</a>
-						</div>
-					</div>
-				</div> <!-- /span6 -->
-
-			</div> <!-- /row-fluid -->
-		</div> <!-- /container -->
-	</div><!-- /pricing-table -->
-
-
 	<div class="testimonials">
 		<div class="container">
 			<div class="row-fluid">
 
-				<div class="span4">
-					<div class="testimonail">
+				<div class="span2">
+					<div class="testimonail" id="dog1">
 						<div class="testimonail-text">
 							<blockquote>
-							<div class="textimonial-image">
-							<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
-						</div>
-								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis. Quisque nulla magna. <i class="icon-quote-right"></i><p>
-
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
 								<h5 class="title"><a href="#">Loki luck</a></h5>
-								<span class="sub-title">Interface Designer at <a href="#">Cog.com</a></span>
 							</blockquote>
 						</div>
 					</div>
-				</div> <!-- /sapn4 -->
+				</div>
 
-				<div class="span4">
-					<div class="testimonail">
+				<div class="span2">
+					<div class="testimonail" id="dog2">
 						<div class="testimonail-text">
 							<blockquote>
-							<div class="textimonial-image">
-							<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
-						</div>
-								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis. Quisque nulla magna. <i class="icon-quote-right"></i><p>
-
-								<h5 class="title"><a href="#">John bock</a></h5>
-								<span class="sub-title">Interface Designer at <a href="#">Pixell.com</a></span>
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
+								<h5 class="title"><a href="#">Loki luck</a></h5>
 							</blockquote>
 						</div>
 					</div>
-				</div> <!-- /sapn4 -->
+				</div>
 
-				<div class="span4">
-					<div class="testimonail">
+				<div class="span2">
+					<div class="testimonail" id="dog3">
 						<div class="testimonail-text">
 							<blockquote>
-							<div class="textimonial-image">
-							<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
-						</div>
-								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis. Quisque nulla magna. <i class="icon-quote-right"></i><p>
-
-								<h5 class="title"><a href="#">Jack Robinson</a></h5>
-								<span class="sub-title">Interface Designer at <a href="#">beaker.com</a></span>
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
+								<h5 class="title"><a href="#">Loki luck</a></h5>
 							</blockquote>
 						</div>
 					</div>
-				</div> <!-- /sapn4 -->
+				</div>
 
-			</div> <!-- /row-fluid -->
-		</div> <!-- /container -->
-	</div><!-- /testimonials -->
+				<div class="span2">
+					<div class="testimonail" id="dog4">
+						<div class="testimonail-text">
+							<blockquote>
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
+								<h5 class="title"><a href="#">Loki luck</a></h5>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+				<div class="span2">
+					<div class="testimonail" id="dog5">
+						<div class="testimonail-text">
+							<blockquote>
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
+								<h5 class="title"><a href="#">Loki luck</a></h5>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+				<div class="span2">
+					<div class="testimonail" id="dog6">
+						<div class="testimonail-text">
+							<blockquote>
+								<div class="textimonial-image">
+									<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+								</div>
+								<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
+								<h5 class="title"><a href="#">Loki luck</a></h5>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div><!-- /pricing-table -->
 
 	<div class="contact">
 
@@ -232,7 +222,6 @@ $cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 			</div> <!-- /row-fluid -->
 		</div> <!-- /container -->
 	</div> <!-- /footer -->
-
 
 	<!-- Le javascript
 	================================================== -->

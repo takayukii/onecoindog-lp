@@ -8,12 +8,12 @@
  * * http://fortawesome.github.com/Font-Awesome/
  *
     // STYLES IN ORDER
-    
-    # Google Font                                        
-    # Reset Some Defaults Styles                         
-    # Layout                                             
-    # Header                                            
-    # Grid features                                                        
+
+    # Google Font
+    # Reset Some Defaults Styles
+    # Layout
+    # Header
+    # Grid features
     # Pricing table
     # Testimonials
     # Join
@@ -21,28 +21,92 @@
     # Footer
     # Responive Fixes
  */
-  
-/* 
- * Google Font 
+
+#dog1 {
+  position : relative;
+  top : -5px;
+  left : -20px;
+  -webkit-transform: rotate(32deg);
+  -moz-transform   : rotate(32deg);
+  -ms-transform    : rotate(32deg);
+  -o-transform     : rotate(32deg);
+  transform        : rotate(32deg);
+}
+#dog2 {
+  position : relative;
+  top : -20px;
+  left : -10px;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform   : rotate(-12deg);
+  -ms-transform    : rotate(-12deg);
+  -o-transform     : rotate(-12deg);
+  transform        : rotate(-12deg);
+}
+#dog3 {
+  position : relative;
+  top : 20px;
+  left : -10px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform   : rotate(-2deg);
+  -ms-transform    : rotate(-2deg);
+  -o-transform     : rotate(-2deg);
+  transform        : rotate(-2deg);
+}
+#dog4 {
+  position : relative;
+  top : -20px;
+  left : 10px;
+  -webkit-transform: rotate(10deg);
+  -moz-transform   : rotate(10deg);
+  -ms-transform    : rotate(10deg);
+  -o-transform     : rotate(10deg);
+  transform        : rotate(10deg);
+}
+#dog5 {
+  position : relative;
+  top : 70px;
+  left : 10px;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform   : rotate(-12deg);
+  -ms-transform    : rotate(-12deg);
+  -o-transform     : rotate(-12deg);
+  transform        : rotate(-12deg);
+}
+#dog6 {
+  position : relative;
+  top : -20px;
+  left : -30px;
+  -webkit-transform: rotate(10deg);
+  -moz-transform   : rotate(10deg);
+  -ms-transform    : rotate(10deg);
+  -o-transform     : rotate(10deg);
+  transform        : rotate(10deg);
+}
+
+/*
+ * Google Font
  ******************************************************************************/
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 
-/* 
+/*
  * Reset some default styles
  ******************************************************************************/
-* { 
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
-  box-sizing: border-box; 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   }
 
 body {
-  background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-   background-attachment: fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  background-size:cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-image: none \9; /* IE 8 */
   background-color: rgb(56, 56, 56) \9; /* IE 8 */
   font-family: Quicksand;
@@ -75,14 +139,14 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
   height: 40px;
 }
 
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], 
-input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], 
-input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], 
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"],
+input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"],
+input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"],
 .uneditable-input {
-  background-color: #fff; 
+  background-color: #fff;
   border: solid 1px #eee;
-  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.1); 
-  -moz-box-shadow: inset 0 0 2px rgba(0,0,0,.1); 
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.1);
+  -moz-box-shadow: inset 0 0 2px rgba(0,0,0,.1);
   box-shadow: inset 0 0 2px rgba(0,0,0,.1);
 }
 
@@ -99,7 +163,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   font-weight: 600;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  
+
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -112,15 +176,15 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   color: rgb(87, 87, 87);
 }
 
-/* 
- * Layout 
+/*
+ * Layout
  ******************************************************************************/
 .header, .grid-features, .pricing-table, .join, .testimonials, .contact {
   padding: 80px 0;
 }
- 
-/* 
- * Header 
+
+/*
+ * Header
  ******************************************************************************/
 .header {
   width: 100%;
@@ -179,28 +243,28 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   *zoom: 1;
   display: inline;
   display: inline-block;
-  
+
   -webkit-box-shadow: 0px 4px 0px rgb(104, 191, 213);
   -moz-box-shadow: 0px 4px 0px rgb(104, 191, 213);
   -ms-box-shadow: 0px 4px 0px rgb(104, 191, 213);
   -o-box-shadow: 0px 4px 0px rgb(104, 191, 213);
   box-shadow: 0px 4px 0px rgb(104, 191, 213);
-  
+
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-} 
+}
 
 .header-btn:hover, .header-btn:active {
   color: #fff;
   margin-top: 60px;
-  
+
   -webkit-box-shadow: 0px 1px 0px rgb(104, 191, 213);
   -moz-box-shadow: 0px 1px 0px rgb(104, 191, 213);
   -ms-box-shadow: 0px 1px 0px rgb(104, 191, 213);
   -o-box-shadow: 0px 1px 0px rgb(104, 191, 213);
   box-shadow: 0px 1px 0px rgb(104, 191, 213);
-} 
+}
 
 /* App buttons */
 .app-buttons {
@@ -227,11 +291,11 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 
 .apple-store:hover, .google-store:hover {
   opacity: .7;
-  filter: alpha(opacity=70); 
-} 
+  filter: alpha(opacity=70);
+}
 
-/* 
- * Grid features 
+/*
+ * Grid features
  ******************************************************************************/
 .grid-features {
   background: #fff;
@@ -252,7 +316,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   width: 161px;
   height: 160px;
   margin: 0 auto;
-  
+
   -webkit-transition: 400ms all;
   -moz-transition: 400ms all;
   -ms-transition: 400ms all;
@@ -283,10 +347,10 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 .grid-feature .title {
   text-transform: uppercase;
 }
- 
- 
-/* 
- * Pricing table 
+
+
+/*
+ * Pricing table
  ******************************************************************************/
  .pricing-table {
   position: relative;
@@ -298,11 +362,11 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   padding: 30px 20px;
   min-width: 250px;
   border: 1px solid rgb(238, 238, 238);
-  
+
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  
+
   -webkit-box-shadow: inset 0 0 4px rgb(231, 231, 231);
   -moz-box-shadow: inset 0 0 4px rgb(231, 231, 231);
   -ms-box-shadow: inset 0 0 4px rgb(231, 231, 231);
@@ -315,11 +379,11 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   margin-bottom: 40px;
   float: right;
 }
- 
+
 .plan-2 {
   max-width: 300px;
   min-width: 300px;
-} 
+}
 
 .plan .title-wrapper {
   background: rgb(250, 250, 250);
@@ -327,11 +391,11 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   height: 120px;
   margin: -10px auto 20px;
   border: 1px dashed rgb(200, 200, 200);
-  
+
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
-  
+
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
   -ms-transition: all 300ms;
@@ -361,7 +425,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   line-height: 103px;
   color: rgb(255, 255, 255);
   margin: 9px auto 0;
-  
+
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -385,11 +449,12 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   padding-top: 30px;
   text-align: center;
 }
- 
-/* 
+
+/*
  * Testimonials
  ******************************************************************************/
 .testimonials {
+  overflow:hidden;
   background: #f9f9f9;
   border: 1px solid rgb(243, 243, 243);
   border-left: 0;
@@ -411,6 +476,9 @@ blockquote p {
 }
 
 .testimonail {
+  /* ore */
+  width : 150%;
+
   max-width: 300px;
   margin: 0 auto 30px;
 }
@@ -421,11 +489,11 @@ blockquote p {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  
+
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  
+
   -webkit-box-shadow: inset 0 0 4px rgb(231, 231, 231);
   -moz-box-shadow: inset 0 0 4px rgb(231, 231, 231);
   -ms-box-shadow: inset 0 0 4px rgb(231, 231, 231);
@@ -444,22 +512,22 @@ blockquote p {
   color: rgb(226, 64, 129);
   text-shadow: 0 1px 0 rgb(255, 255, 255);
   text-transform: uppercase;
-} 
+}
 
 .testimonail-text .sub-title {
   font-size: 12px;
   font-weight: 600;
   color: rgb(163, 54, 111);
-} 
+}
 
 .testimonail-text .sub-title a{
   color: rgb(163, 54, 111);
   text-decoration: underline;
-} 
+}
 
 .testimonail-text .sub-title a:hover{
   color: rgb(163, 154, 111);
-} 
+}
 
 .textimonial-image {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGDwAeItQAwGjDAGNgGwSgwVAFFOAgWfVVqnAAAAAElFTkSuQmCC) repeat;
@@ -473,7 +541,7 @@ blockquote p {
   background: #fff;
 }
 
-/* 
+/*
  * Join
  ******************************************************************************/
 .join {
@@ -488,20 +556,20 @@ blockquote p {
   color: #fff;
 }
 
-.join textarea, .join input[type="text"], .join input[type="password"], .join input[type="datetime"], .join input[type="datetime-local"], .join input[type="date"], .join input[type="month"], .join input[type="time"], .join input[type="week"], .join input[type="number"], .join input[type="email"], .join input[type="url"], .join input[type="search"], .join input[type="tel"], .join input[type="color"], 
+.join textarea, .join input[type="text"], .join input[type="password"], .join input[type="datetime"], .join input[type="datetime-local"], .join input[type="date"], .join input[type="month"], .join input[type="time"], .join input[type="week"], .join input[type="number"], .join input[type="email"], .join input[type="url"], .join input[type="search"], .join input[type="tel"], .join input[type="color"],
 .uneditable-input {
   background-color: rgb(134, 134, 134);
   border: solid 1px rgb(134, 134, 134);
-  height: 55px; 
+  height: 55px;
   padding-left: 20px;
   color: #fff;
-  
+
   -webkit-box-shadow: 0 0 0;
   -moz-box-shadow: 0 0 0;
   box-shadow: 0 0 0;
 }
 
-.join input:focus:invalid:focus, .join textarea:focus:invalid:focus, .join select:focus:invalid:focus { 
+.join input:focus:invalid:focus, .join textarea:focus:invalid:focus, .join select:focus:invalid:focus {
   -webkit-box-shadow: 0 0 0;
   -moz-box-shadow: 0 0 0;
   box-shadow: 0 0 0;
@@ -516,22 +584,22 @@ blockquote p {
   background: rgb(90, 204, 136);
   padding-top: 11px;
 }
- 
- 
- /* 
- * Contact 
+
+
+ /*
+ * Contact
  ******************************************************************************/
 .contact {
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
-  background-color: rgba(175, 175, 175,.8);
+  background-color: rgba(175, 175, 175, .8);
   color: #fff;
 }
 
 .contact-form .custom-btn {
   float: right;
   padding-bottom: 8px;
-  
+
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
   -ms-transition: all 300ms;
@@ -557,7 +625,7 @@ blockquote p {
   font-size: 45px;
   color: #fff;
   border: 1px solid #fff;
-  
+
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -574,7 +642,7 @@ blockquote p {
   padding: 9px 16px 7px;
   background: rgb(0, 194, 255);
   border: 1px solid rgb(0, 194, 255);
-  
+
   -webkit-transition: all 300ms;
   -moz-transition: all 300ms;
   -ms-transition: all 300ms;
@@ -587,9 +655,9 @@ blockquote p {
   background: transparent;
   color: rgb(0, 194, 255);
 }
- 
-/* 
- * Footer 
+
+/*
+ * Footer
  ******************************************************************************/
 .footer {
   background: rgb(249, 249, 249);
@@ -603,70 +671,70 @@ blockquote p {
 .footer-copyright {
   padding-top: 23px;
 }
- 
- 
- /* 
+
+
+ /*
  * Responive Fixes
  ******************************************************************************/
 /* Large desktop */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   .site-slogan { font-size: 37px; }
-  
+
   .grid-feature { padding: 10px; }
 
 }
- 
+
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   body { padding: 0; }
-  
+
   .container { padding-left: 10px; padding-right: 10px; }
-  
+
   .header { min-height: 780px;}
-  
+
   .site-slogan { font-size: 38px; }
-  
+
   .plan { float: none; margin-right: auto; margin-left: auto;}
-   
+
   .contact-form { margin-bottom: 80px;}
-  
-  .subscription-form .custom-btn { display: block; width: 100%; margin-top: 10px; } 
-  
+
+  .subscription-form .custom-btn { display: block; width: 100%; margin-top: 10px; }
+
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .site-slogan { font-size: 29px; }
-  
+
   .site-slogan span { padding: 12px 10px; }
-  
-  .header-btn { padding: 32px; font-size: 18px;} 
-  
+
+  .header-btn { padding: 32px; font-size: 18px;}
+
   .plan-2 { min-width: 260px; }
-  
+
   .social-icons a { padding: 17px; font-size: 21px; }
-  
+
   .footer { text-align: center;}
-  
+
   .footer-title { margin-bottom: -5px;}
-  
+
   .footer-copyright, .footer-title { float: none !important;}
 }
 
 /* Portrait phones and down */
 @media (max-width: 320px) {
   .site-slogan { font-size: 21px; }
-  
+
   .app-buttons { text-align: center; }
-  
+
   .google-store { float: none !important; margin-top: 15px;}
-  
-  .ib-main { margin-left: 40px;} 
-  
+
+  .ib-main { margin-left: 40px;}
+
   .social-icons a { padding: 14px; font-size: 17px; }
 }
