@@ -12,8 +12,6 @@
  * @since				 0.10.0
  * @license			 http://www.opensource.org/licenses/mit-license.php MIT License
  */
-
-$cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +19,7 @@ $cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 	<?= $this->Html->charset() ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
-		<?= $cakeDescription ?>
+		<?= 'One Coin: ひさしぶりに犬の散歩しませんか？' ?>
 	</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,6 +54,7 @@ $cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 
 </head>
 <body>
+	<?= $this->Flash->render() ?>
 	<div class="header">
 		<div class="container">
 			<div class="row-fluid">
@@ -222,6 +221,53 @@ $cakeDescription = 'One Coin: ひさしぶりに犬の散歩しませんか？';
 			</div> <!-- /row-fluid -->
 		</div> <!-- /container -->
 	</div> <!-- /footer -->
+
+	<!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">ご登録ありがとうございました</h3>
+		</div>
+		<div id="myModalBody" class="modal-body">
+			<style>
+			.share .twitter, .share .facebook {
+			  display: inline-block;
+			  vertical-align: top;
+			}
+			.share .facebook {
+			  width: 90px;
+			  overflow: hidden;
+			}
+			.share .twitter {
+			  width: 100px;
+			  overflow: hidden;
+			}
+			</style>
+
+			<p>リリース時期が近づいて参りましたらまたご連絡させて頂きます。よろしければOneCoinをぜひお友達にシェアください。</p>
+
+			<div class="share pull-right">
+				<div class="facebook">
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+				  fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+				<div class="fb-share-button" data-href="https://onecoin-dog.herokuapp.com" data-layout="button_count"></div>
+				</div>
+				<div class="twitter">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://onecoin-dog.herokuapp.com" data-lang="ja">ツイート</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="custom-btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		</div>
+	</div>
 
 	<!-- Le javascript
 	================================================== -->

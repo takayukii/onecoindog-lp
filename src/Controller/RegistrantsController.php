@@ -10,24 +10,23 @@ use App\Controller\AppController;
  */
 class RegistrantsController extends AppController {
 
-/**
- *
-**/
-	public function form(){
+	public function register(){
 
+		$saved = false;
 		$this->layout = 'onecoin';
+
 		$registrant = $this->Registrants->newEntity($this->request->data);
 		if ($this->request->is('post')) {
 
 			if ($this->Registrants->save($registrant)) {
-				$this->Flash->success('The registrant has been saved.');
-				return $this->redirect(['action' => 'form']);
+				$this->Flash->success('仮登録が完了しました。');
+				$saved = true;
 			} else {
-				$this->Flash->error('The registrant could not be saved. Please, try again.');
+				$this->Flash->error('仮登録に失敗しました。フォームの内容を再度ご確認ください。');
 			}
 
 		}
-		$this->set(compact('registrant'));
+		$this->set(compact('registrant', 'saved'));
 
 	}
 

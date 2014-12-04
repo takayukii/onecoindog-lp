@@ -10,6 +10,15 @@ $(document).ready(function() {
     $('html,body').animate({scrollTop:$(".contact").offset().top}, 'slow');
   });
 
+  $('.error').click( function(e) {
+    e.preventDefault();
+    $('html,body').animate({scrollTop:$(".contact").offset().top}, 'slow');
+  });
+
+  if($('#is-saved').text()){
+    $('#myModal').modal("show");
+  }
+
   /*
   // ajax contact form
   $('.contact-form').submit(function(){
@@ -33,3 +42,5 @@ $(document).ready(function() {
   });
 
 });
+
+
