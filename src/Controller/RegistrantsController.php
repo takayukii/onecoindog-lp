@@ -19,10 +19,10 @@ class RegistrantsController extends AppController {
 		if ($this->request->is('post')) {
 
 			if ($this->Registrants->save($registrant)) {
-				$this->Flash->success('仮登録が完了しました。');
+				$this->Flash->success('事前登録が完了しました。');
 				$saved = true;
 			} else {
-				$this->Flash->error('仮登録に失敗しました。フォームの内容を再度ご確認ください。');
+				$this->Flash->error('事前登録に失敗しました。フォームの内容を再度ご確認ください。');
 			}
 
 		}

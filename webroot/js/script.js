@@ -4,17 +4,6 @@
 
 $(document).ready(function() {
 
-  // init top to bottom
-  $('.header-btn').click( function(e) {
-    e.preventDefault();
-    $('html,body').animate({scrollTop:$(".contact").offset().top}, 'slow');
-  });
-
-  $('.error').click( function(e) {
-    e.preventDefault();
-    $('html,body').animate({scrollTop:$(".contact").offset().top}, 'slow');
-  });
-
   if($('#is-saved').text()){
     $('#myModal').modal("show");
   }

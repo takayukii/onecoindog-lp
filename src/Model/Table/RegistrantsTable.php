@@ -34,10 +34,10 @@ class RegistrantsTable extends Table {
 			->add('id', 'valid', ['rule' => 'numeric'])
 			->allowEmpty('id', 'create')
 			->allowEmpty('name')
-			->add('email', 'valid', ['rule' => 'email'])
+			->add('email', 'valid', ['rule' => 'email', 'message' => '有効なメールアドレスをご登録ください'])
 			->requirePresence('email', 'create')
 			->notEmpty('email')
-			->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table'])
+			->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table', 'message' => '登録済のメールアドレスです'])
 			->allowEmpty('comment');
 
 		return $validator;
