@@ -19,7 +19,7 @@
 	<?= $this->Html->charset() ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
-		<?= 'One Coin: ひさしぶりに犬の散歩しませんか？' ?>
+		<?= 'ONECOIN: 歩いて寄付する散歩のシェアサービス' ?>
 	</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,6 +52,11 @@
 		<link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="img/ico/favicon.png">
 
+		<script src="/js/jquery.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/script.js"></script>
+		<script src="/js/jquery.bgswitcher.js"></script>
+		<script src="/js/jquery.jrumble.js"></script>
 </head>
 <body>
 	<?= $this->Flash->render() ?>
@@ -60,65 +65,15 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row-fluid">
-				<h3 class="footer-title pull-left"><a href="#"><i class="icon-time"></i> Tempus</a></h3>
+				<h3 class="footer-title pull-left"><a href="#"><i class="icon-time"></i> ONECOIN</a></h3>
 				<p class="pull-right footer-copyright">&copy; All Right Reserved.</p>
 			</div> <!-- /row-fluid -->
 		</div> <!-- /container -->
 	</div> <!-- /footer -->
 
-	<!-- Modal -->
-	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3 id="myModalLabel">ご登録ありがとうございました</h3>
-		</div>
-		<div id="myModalBody" class="modal-body">
-			<style>
-			.share .twitter, .share .facebook {
-			  display: inline-block;
-			  vertical-align: top;
-			}
-			.share .facebook {
-			  width: 90px;
-			  overflow: hidden;
-			}
-			.share .twitter {
-			  width: 100px;
-			  overflow: hidden;
-			}
-			</style>
-
-			<p>リリース時期が近づいて参りましたらまたご連絡させて頂きます。よろしければOneCoinをぜひお友達にシェアください。</p>
-
-			<div class="share pull-right">
-				<div class="facebook">
-				<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
-				  fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-				<div class="fb-share-button" data-href="https://onecoin-dog.herokuapp.com" data-layout="button_count"></div>
-				</div>
-				<div class="twitter">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://onecoin-dog.herokuapp.com" data-lang="ja">ツイート</a>
-					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-				</div>
-			</div>
-		</div>
-		<div class="modal-footer">
-			<button class="custom-btn" data-dismiss="modal" aria-hidden="true">Close</button>
-		</div>
-	</div>
-
 	<!-- Le javascript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="/js/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/script.js"></script>
 
 </body>
 </html>
