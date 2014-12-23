@@ -5,7 +5,7 @@
 		<div class="row-fluid">
 			<div class="span12">
 				<div class="description-texts">
-					<h1 class="site-slogan" style="text-align:left;"><span>ONECOIN</span></h1>
+					<div class="site-slogan" style="text-align:left;"><img src="/img/onecoin-logo.png"></div>
 					<p class="app-description" style="text-align:left;">
 						<span>いっしょに歩こう</span>
 					</p>
