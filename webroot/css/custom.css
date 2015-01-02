@@ -104,6 +104,19 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   color: rgb(87, 87, 87);
 }
 
+#page-top {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    font-size: 77%;
+}
+#page-top a {
+    width: 100px;
+    padding: 30px 0;
+    text-align: center;
+    display: block;
+}
+
 /*
  * Layout
  ******************************************************************************/
@@ -395,6 +408,22 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 .pricing-btn {
   padding-top: 30px;
   text-align: center;
+}
+
+/*
+ * Guest
+ ******************************************************************************/
+
+.testimonials1 {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/bg3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*

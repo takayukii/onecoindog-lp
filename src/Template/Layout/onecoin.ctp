@@ -65,11 +65,23 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row-fluid">
-				<h3 class="footer-title pull-left"><a href="#"><i class="icon-time"></i> ONECOIN</a></h3>
+				<h3 class="footer-title pull-left"><a href="#"><img src="img/onecoin-logo-bk.png" style="height:50px;"></a></h3>
 				<p class="pull-right footer-copyright">&copy; All Right Reserved.</p>
 			</div> <!-- /row-fluid -->
 		</div> <!-- /container -->
 	</div> <!-- /footer -->
+	<p id="page-top"><a href="#wrap"><img src="img/dog-paw.png"></a></p>
+	<script>
+		var $page_top = $("#page-top");
+		$page_top.jrumble({
+			speed: 100
+		});
+		$page_top.hover(function(){
+			//$(this).trigger('startRumble');
+		}, function(){
+			//$(this).trigger('stopRumble');
+		});
+	</script>
 
 	<!-- Le javascript
 	================================================== -->

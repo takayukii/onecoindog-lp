@@ -197,16 +197,16 @@ $(".header").bgswitcher({
 					var transform = $testimonail.css('transform');
 
 					$testimonail.hover(function(){
-						$(this).trigger('startRumble');
+						//$(this).trigger('startRumble');
 					}, function(){
-						$(this).trigger('stopRumble');
+						/*$(this).trigger('stopRumble');
 						$(this).css('top', top);
 						$(this).css('left', left);
 						$(this).css('-webkit-transform', _webkit_transform);
 						$(this).css('-moz-transform', _moz_transform);
 						$(this).css('-ms-transform', _ms_transform);
 						$(this).css('-o-transform', _o_transform);
-						$(this).css('transform', transform);
+						$(this).css('transform', transform);*/
 					});
 				});
 			</script>
