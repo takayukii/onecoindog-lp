@@ -275,7 +275,7 @@ $(".header").bgswitcher({
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-		<h3 id="myModalLabel">ご登録ありがとうございました</h3>
+		<h3 id="myModalLabel">ご登録ありがとうございます</h3>
 	</div>
 	<div id="myModalBody" class="modal-body">
 
@@ -294,7 +294,7 @@ $(".header").bgswitcher({
 		}
 		</style>
 
-		<p>リリース時期が近づいて参りましたらまたご連絡させて頂きます。よろしければOneCoinをぜひお友達にシェアください。</p>
+		<p>リリース時期が近づいて参りましたらご連絡させて頂きます。よろしければONECOINをぜひお友達にシェアお願い致します。</p>
 
 		<div class="share pull-right">
 			<div class="facebook">
