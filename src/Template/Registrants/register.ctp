@@ -12,22 +12,30 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
 		<div class="row-fluid" id="registrant">
 			<div class="span12">
 				<div class="app-buttons" style="text-align:center;">
-					<div class="registrant-message">
-						<p>事前登録はこちらから</p>
-						<p>事前登録頂くとリリース時に率先してご案内させて頂きます</p>
+					<div class="registrant-box">
+						<div class="registrant-message">
+							<p style="font-size:large;">事前登録はこちらから</p>
+							<p>ご登録頂くとリリース時に率先してお知らせ致します</p>
+						</div>
+						<?= $this->Form->create($registrant, ['class' => 'form-inline']); ?>
+							<p>
+							<?= $this->Form->input('email', ['class' => 'input-small registrant-email', 'templates' => ['inputContainer' => '{{content}}',], 'label' => false, 'placeholder' => 'メールアドレス']);?>
+							</p>
+							<p style="color:black;">
+								現在、犬を <?= $this->Form->input('comment', ['class' => 'input-small', 'templates' => ['inputContainer' => '{{content}}'], 'label' => false, 'style' => 'border:1px solid #eee;width:180px;height:40px;', 'options' => ['own' => '飼っている', 'willown' => '飼う予定がある','notown' => '飼っていない']]);?>
+								<button type="submit" class="btn header-btn" style="color:black;">登録</button>
+							</p>
+
+						<?= $this->Form->end(); ?>
 					</div>
-					<?= $this->Form->create($registrant, ['class' => 'form-inline']); ?>
-					<?php echo $this->Form->input('email', ['class' => 'input-small registrant-email', 'templates' => ['inputContainer' => '{{content}}',], 'label' => false, 'placeholder' => 'メールアドレス']);?>
-						<button type="submit" class="btn header-btn">登録</button>
-					<?= $this->Form->end(); ?>
 				</div>
 			</div>
 		</div>
-	</div> <!-- /container -->
+
 </div><!-- /header -->
 <script>
 /*
@@ -239,21 +247,28 @@ $(".header").bgswitcher({
 			</div>
 
 		</div> <!-- /row-fluid -->
-		<div class="row-fluid">
-			<div class="span12">
-				<div class="app-buttons" style="text-align:center;">
-					<div class="registrant-message" style="color:white;">
-						<p>事前登録はこちらから</p>
-						<p>事前登録頂くとリリース時に率先してご案内させて頂きます</p>
+	</div>
+	<div class="row-fluid contact-bottom" id="registrant2">
+		<div class="span12">
+			<div class="app-buttons" style="text-align:center;">
+				<div class="registrant-box2" style="color:white;">
+					<div class="registrant-message">
+						<p style="font-size:large;color:white;">事前登録はこちらから</p>
+						<p style="color:white;">ご登録頂くとリリース時に率先してお知らせ致します</p>
 					</div>
 					<?= $this->Form->create($registrant, ['class' => 'form-inline']); ?>
-					<?php echo $this->Form->input('email', ['class' => 'input-small registrant-email', 'templates' => ['inputContainer' => '{{content}}',], 'label' => false, 'placeholder' => 'メールアドレス']);?>
-						<button type="submit" class="btn header-btn">登録</button>
+						<p>
+						<?= $this->Form->input('email', ['class' => 'input-small registrant-email', 'templates' => ['inputContainer' => '{{content}}',], 'label' => false, 'placeholder' => 'メールアドレス']);?>
+						</p>
+						<p style="color:white;">
+							現在、犬を <?= $this->Form->input('comment', ['class' => 'input-small', 'templates' => ['inputContainer' => '{{content}}'], 'label' => false, 'style' => 'border:1px solid #eee;width:180px;height:40px;', 'options' => ['own' => '飼っている', 'willown' => '飼う予定がある','notown' => '飼っていない']]);?>
+							<button type="submit" class="btn header-btn" style="color:black;">登録</button>
+						</p>
 					<?= $this->Form->end(); ?>
 				</div>
 			</div>
 		</div>
-	</div> <!-- /container -->
+	</div>
 </div><!-- /contact -->
 
 <!-- Modal -->

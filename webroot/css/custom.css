@@ -34,7 +34,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  }
+}
 
 body {
   font-family: Quicksand;
@@ -176,14 +176,27 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   margin-bottom: 2px;
 }
 
+.registrant-box{
+  background: url(../img/00005.png);
+  padding: 20px 10px 10px 0px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.registrant-box2{
+  background: url(../img/fff10.png);
+  padding: 20px 10px 10px 0px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 #registrant {
   position: relative;
-  bottom: -150px;
+  bottom: -100px;
 }
 
 .registrant-message{
   color : black;
-  width:420px;
+  width:340px;
   text-align:left;
   margin-left:auto;
   margin-right:auto;
@@ -195,14 +208,12 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 
 .header-btn {
   background: #ff9966;
-  color:#ffffff;
+  color: black;
   padding: 10px;
   padding-left:25px;
   padding-right:25px;
   color: rgb(255, 255, 255);
   font-size: middle;
-  display: inline;
-  display: inline-block;
 
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -211,7 +222,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 
 .header-btn:hover {
   background: #ff9966;
-  color:#ffffff;
+  color:black;
 }
 
 /* App buttons */
@@ -258,7 +269,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 }
 
 .grid-features {
-  background: #fff;
+  background: url(../img/onecoin_bg.png) no-repeat;
   position: relative;
 }
 
@@ -670,7 +681,7 @@ blockquote p {
  * Contact
  ******************************************************************************/
 .contact {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   width: 100%;
   background: url(../img/bg2.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -679,6 +690,10 @@ blockquote p {
   background-size: cover;
   background-color: rgba(175, 175, 175, .8);
   color: #fff;
+}
+.contact-bottom{
+  margin:0;
+  padding:0;
 }
 
 .contact-form .custom-btn {
@@ -739,6 +754,11 @@ blockquote p {
   background: #fff;
   background: transparent;
   color: rgb(0, 194, 255);
+}
+
+#registrant2 {
+  position: relative;
+  bottom: -20px;
 }
 
 /*
