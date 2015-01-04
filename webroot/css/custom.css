@@ -515,13 +515,11 @@ blockquote p {
   padding: 10px;
 }
 
-.textimonial-image-1 {
-  background: url(../img/dog_bg1.jpg) no-repeat center center;
-}
-
 .textimonial-image img {
   border: 5px solid rgb(252, 252, 252);
   background: #fff;
+  height: 100px;
+  width: 100px;
 }
 
 .guest-message{
@@ -550,6 +548,10 @@ blockquote p {
   -o-transform     : rotate(32deg);
   transform        : rotate(32deg);
 }
+.textimonial-image-1 {
+  background: url(../img/dog_bg1.jpg) no-repeat center center;
+}
+
 #dog2 {
   position : relative;
   top : -20px;
@@ -560,6 +562,10 @@ blockquote p {
   -o-transform     : rotate(-12deg);
   transform        : rotate(-12deg);
 }
+.textimonial-image-2 {
+  background: url(../img/dog_bg2.jpg) no-repeat center center;
+}
+
 #dog3 {
   position : relative;
   top : 20px;
@@ -570,6 +576,10 @@ blockquote p {
   -o-transform     : rotate(-2deg);
   transform        : rotate(-2deg);
 }
+.textimonial-image-3 {
+  background: url(../img/dog_bg3.jpg) no-repeat center center;
+}
+
 #dog4 {
   position : relative;
   top : -20px;
@@ -580,6 +590,10 @@ blockquote p {
   -o-transform     : rotate(10deg);
   transform        : rotate(10deg);
 }
+.textimonial-image-4 {
+  background: url(../img/dog_bg4.jpg) no-repeat center center;
+}
+
 #dog5 {
   position : relative;
   top : 70px;
@@ -590,6 +604,10 @@ blockquote p {
   -o-transform     : rotate(-12deg);
   transform        : rotate(-12deg);
 }
+.textimonial-image-5 {
+  background: url(../img/dog_bg5.jpg) no-repeat center center;
+}
+
 #dog6 {
   position : relative;
   top : -20px;
@@ -599,6 +617,9 @@ blockquote p {
   -ms-transform    : rotate(10deg);
   -o-transform     : rotate(10deg);
   transform        : rotate(10deg);
+}
+.textimonial-image-6 {
+  background: url(../img/dog_bg6.jpg) no-repeat center center;
 }
 
 /*

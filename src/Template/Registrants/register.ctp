@@ -46,7 +46,7 @@ $(".header").bgswitcher({
 					<p>愛犬との散歩、誰かといっしょに出かけませんか？</p>
 				</span>
 				<span class="feature-notice">
-					<p>ONECOINは犬の散歩をみんなでシェアするサービスです</p>
+					<p>ONECOINは犬の散歩をみんなでシェアする「お散歩マーケットプレイス」です</p>
 				</span>
 			</div>
 		</div>
@@ -57,7 +57,7 @@ $(".header").bgswitcher({
 					<i class="icon-home"></i>
 				</div>
 				<h3 class="title">いつもの散歩を<br>そのままシェア</h3>
-				<p style="text-align:left;">30分から1時間程度のいつもの散歩を犬好きのみんなに共有してみましょう。特別な散歩コースは必要ありません。たとえば犬が飼えない犬好きの人にとって、あなたのいつもの散歩は実は十分価値があります。散歩は500円から応募することができます。</p>
+				<p style="text-align:left;">30分から1時間程度の散歩を犬好きのみんなにシェアしましょう。特別な散歩コースは必要ありません。やることは購入者と一緒に犬の散歩をするだけ。散歩は500円から値付けして登録することができます。</p>
 			</div>
 
 			<div class="span4 text-center grid-feature">
@@ -65,7 +65,7 @@ $(".header").bgswitcher({
 					<i class="icon-comments"></i>
 				</div>
 				<h3 class="title">犬バナしながら<br>散歩しましょう</h3>
-				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu.</p>
+				<p style="text-align:left;">応募者と一緒に犬の話や地域の話を楽しみながら散歩しましょう。散歩は「同性限定」「○歳代限定」など限定して登録ができ、あなたと応募者のスケジュールに合わせて散歩する日時を決めることができます。</p>
 			</div><!-- /span4 -->
 
 			<div class="span4 text-center grid-feature">
@@ -73,7 +73,7 @@ $(".header").bgswitcher({
 					<i class="icon-smile"></i>
 				</div>
 				<h3 class="title">寄付で犬も喜ぶ<br>みんな嬉しい</h3>
-				<p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu.</p>
+				<p style="text-align:left;">散歩すると登録したあなたの値付けに応じてONECOINを通して応募者からお金が支払われます。その全額あるいは一部を動物愛護の寄付団体を通して寄付する事ができます。<br>※具体的な団体などの詳細は調整中です。</p>
 			</div><!-- /span4 -->
 
 		</div> <!-- /row-fluid -->
@@ -85,7 +85,7 @@ $(".header").bgswitcher({
 	<div class="container">
 		<div class="row-fluid">
 			<div class="span12 guest-message">
-				いろんな犬と人と、もっと散歩しよう
+				いろんな犬と人と、もっと会って歩こう
 			</div>
 			<span class="guest-notice">
 				<p>犬と人の数、それよりもっと多くのいろんな散歩の形があります</p>
@@ -114,11 +114,11 @@ $(".header").bgswitcher({
 				<div class="testimonail" id="dog2">
 					<div class="testimonail-text">
 						<blockquote>
-							<div class="textimonial-image">
-								<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+							<div class="textimonial-image textimonial-image-2">
+								<img class="img-circle" src="/img/dog2.jpg" width="100" height="100" alt="avatar image"/>
 							</div>
-							<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
-							<h5 class="title"><a href="#">Loki luck</a></h5>
+							<p style="text-align:left;"><i class="icon-quote-left"></i> いつも下町を歩いています。○○商店街を通って、住宅街を回って1時間のコースです。途中のたい焼きが美味しいです。<i class="icon-quote-right"></i><p>
+							<h5 class="title"><a href="#">下町の散歩</a></h5>
 						</blockquote>
 					</div>
 				</div>
@@ -128,11 +128,11 @@ $(".header").bgswitcher({
 				<div class="testimonail" id="dog3">
 					<div class="testimonail-text">
 						<blockquote>
-							<div class="textimonial-image">
-								<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+							<div class="textimonial-image textimonial-image-3">
+								<img class="img-circle" src="/img/dog3.jpg" width="100" height="100" alt="avatar image"/>
 							</div>
-							<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
-							<h5 class="title"><a href="#">Loki luck</a></h5>
+							<p style="text-align:left;"><i class="icon-quote-left"></i> ○○周辺の公園で散歩してます。室内犬なので運動不足解消によくフリスビーで遊んでいます。一緒にフリスビーしましょう。 <i class="icon-quote-right"></i><p>
+							<h5 class="title"><a href="#">公園でフリスビー</a></h5>
 						</blockquote>
 					</div>
 				</div>
@@ -142,11 +142,11 @@ $(".header").bgswitcher({
 				<div class="testimonail" id="dog4">
 					<div class="testimonail-text">
 						<blockquote>
-							<div class="textimonial-image">
-								<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+							<div class="textimonial-image textimonial-image-4">
+								<img class="img-circle" src="/img/dog4.jpg" width="100" height="100" alt="avatar image"/>
 							</div>
-							<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
-							<h5 class="title"><a href="#">Loki luck</a></h5>
+							<p style="text-align:left;"><i class="icon-quote-left"></i> ダックスフンドの○○君と多摩川をいつも散歩してます。川辺のグランドの野球観戦が最近のお気に入りです。 <i class="icon-quote-right"></i><p>
+							<h5 class="title"><a href="#">川辺の散歩</a></h5>
 						</blockquote>
 					</div>
 				</div>
@@ -156,11 +156,11 @@ $(".header").bgswitcher({
 				<div class="testimonail" id="dog5">
 					<div class="testimonail-text">
 						<blockquote>
-							<div class="textimonial-image">
-								<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+							<div class="textimonial-image textimonial-image-5">
+								<img class="img-circle" src="/img/dog5.jpg" width="100" height="100" alt="avatar image"/>
 							</div>
-							<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
-							<h5 class="title"><a href="#">Loki luck</a></h5>
+							<p style="text-align:left;"><i class="icon-quote-left"></i> 週末は犬連れOKのカフェでランチすることが多いです。もし良かったらカフェめぐりにお付き合いください。 <i class="icon-quote-right"></i><p>
+							<h5 class="title"><a href="#">都内のカフェ</a></h5>
 						</blockquote>
 					</div>
 				</div>
@@ -170,11 +170,11 @@ $(".header").bgswitcher({
 				<div class="testimonail" id="dog6">
 					<div class="testimonail-text">
 						<blockquote>
-							<div class="textimonial-image">
-								<img class="img-circle" src="/img/avatar.png" width="100" height="100" alt="avatar image"/>
+							<div class="textimonial-image textimonial-image-6">
+								<img class="img-circle" src="/img/dog6.jpg" width="100" height="100" alt="avatar image"/>
 							</div>
-							<p><i class="icon-quote-left"></i> Donec aliquet mattis libero, ac porttitor leo ultricies nec. <i class="icon-quote-right"></i><p>
-							<h5 class="title"><a href="#">Loki luck</a></h5>
+							<p style="text-align:left;"><i class="icon-quote-left"></i> 近所の低い山をよく一緒に犬とハイキングしています。春は花も綺麗ですよ。 <i class="icon-quote-right"></i><p>
+							<h5 class="title"><a href="#">山の散歩</a></h5>
 						</blockquote>
 					</div>
 				</div>
@@ -222,15 +222,19 @@ $(".header").bgswitcher({
 		<div class="row-fluid">
 
 			<div class="span12">
-				<h3 class="title">ONECOINは現在開発中のサービスです</h3>
-				<p>We are here to answer any kind of question donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis.</p>
+				<h3 class="title">犬との暮らしをもっと面白く</h3>
 				<h4>いつもの散歩をリデザインする</h4>
-				<p>We are here to answer any kind of question donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis.</p>
+				<p>犬は飼うには少し手間がかかります。特に散歩は毎日の事で、マンネリ化しやすく時に面倒に感じる時もあるのではないでしょうか。ONECOINではそんな犬の散歩をシェアする事でもっと楽しく犬と共生できるのではないかと考えています。</p>
 				<ul>
-					<li>あああ</li>
-					<li>いいい</li>
+					<li>マンネリ解消</li>
+					<li>犬好き同士の交流</li>
+					<li>しつけに関する相談</li>
+					<li>寄付の機会</li>
 				</ul>
-				<p>We are here to answer any kind of question donec aliquet mattis libero, ac porttitor leo ultricies nec. Integer aliquam aliquam tempor. Maecenas congue adipiscing cursus. Pellentesque quis est at justo dignissim iaculis. Vestibulum egestas nibh eu tortor ultrices venenatis.</p>
+				<p> 犬が好きで犬を飼っている人にも、犬が好きだけど飼うのが難しい人にも、両者にとって役立つサービスになればと思います。 </p>
+				<h4>ONECOINは現在開発中のサービスです</h4>
+				<p>本サービスは2015年夏のサービスリリースを目指して現在開発中です。事前登録頂いた皆様には、率先して情報提供させて頂くとともに今後アンケートなどのご協力を頂くことがあります。もし本サービスの内容にご興味があり使ってみたいと思われた場合はぜひ下記のフォームより事前登録をお願いします。</p>
+				<p>その他のサービスに関するお問い合わせは下記にメールをお願いします。</p>
 				<p class="address"><i class="icon-envelop"></i> contact@onecoin-dog.com
 			</div>
 

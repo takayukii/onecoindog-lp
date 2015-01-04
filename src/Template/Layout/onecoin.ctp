@@ -19,7 +19,7 @@
 	<?= $this->Html->charset() ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>
-		<?= 'ONECOIN: 歩いて寄付する散歩のシェアサービス' ?>
+		<?= 'ONECOIN: 歩いて寄付するお散歩マーケットプレイス' ?>
 	</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
