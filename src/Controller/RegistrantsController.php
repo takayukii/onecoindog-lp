@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Network\Email\Email;
 
 /**
  * Registrants Controller
@@ -21,6 +22,32 @@ class RegistrantsController extends AppController {
 			if ($this->Registrants->save($registrant)) {
 				$this->Flash->success('事前登録が完了しました。');
 				$saved = true;
+
+				$to = $this->request->data['email'];
+$body = <<< EOF
+$to 様
+
+この度は「歩いて寄付するお散歩マーケットプレイス ONECOIN」に
+事前登録頂き有難うございました。
+
+ご期待に応えられるサービスになるよう鋭意開発して参ります。
+リリース時期が近づいて参りましたら率先してお知らせ致します。
+
+もしよろしければこちらのアンケートもご記入よろしくお願いします。
+https://xxxxxxx
+
+***************************************************************
+歩いて寄付するお散歩マーケットプレイス ONECOIN
+https://onecoin-dog.com/
+***************************************************************
+EOF;
+
+				$email = new Email('default');
+				$email->to($to)
+					->bcc('takayukii@gmail.com')
+					->subject('ONECOINの事前登録ありがとうございました')
+					->send($body);
+
 			} else {
 				$this->Flash->error('事前登録に失敗しました。フォームの内容を再度ご確認ください。');
 			}

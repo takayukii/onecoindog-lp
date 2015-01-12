@@ -178,22 +178,22 @@ $config = [
  */
 	'EmailTransport' => [
 		'default' => [
-			'className' => 'Mail',
+			'className' => 'Smtp',
 			// The following keys are used in SMTP transports
-			'host' => 'localhost',
-			'port' => 25,
+			'host' => 'smtp.mandrillapp.com',
+			'port' => 587,
 			'timeout' => 30,
-			'username' => 'user',
-			'password' => 'secret',
+			'username' => $_SERVER['SMTPUSER'],
+			'password' => $_SERVER['SMTPPASS'],
 			'client' => null,
-			'tls' => null,
+			'tls' => true,
 		],
 	],
 
 	'Email' => [
 		'default' => [
 			'transport' => 'default',
-			'from' => 'you@localhost',
+			'from' => $_SERVER['SENDER'],
 			//'charset' => 'utf-8',
 			//'headerCharset' => 'utf-8',
 		],
