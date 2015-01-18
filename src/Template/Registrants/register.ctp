@@ -32,6 +32,23 @@
 
 						<?= $this->Form->end(); ?>
 					</div>
+					<div class="share share-front pull-right">
+						<div class="facebook">
+						<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+						<div class="fb-share-button" data-href="http://onecoindog.com" data-layout="button_count"></div>
+						</div>
+						<div class="twitter">
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://onecoindog.com" data-lang="ja">ツイート</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -232,7 +249,7 @@ $(".header").bgswitcher({
 			<div class="span12">
 				<h3 class="title">犬との暮らしをもっと面白く</h3>
 				<h4>いつもの散歩をリデザインする</h4>
-				<p>犬は飼うには少し手間がかかります。特に散歩は毎日の事で、マンネリ化しやすく時に面倒に感じる時もあるのではないでしょうか。ONECOINではそんな犬の散歩をシェアする事でもっと楽しく犬と共生できるのではないかと考えています。</p>
+				<p>犬は飼うには少し手間がかかります。特に散歩は毎日の事で、マンネリ化しやすく時に面倒に感じる時もあるのではないでしょうか。ONECOINではそんな犬の散歩をみんなとシェアする事でもっと楽しく犬と共生できるのではないかと考えサービスを開発しています。</p>
 				<ul>
 					<li>マンネリ解消</li>
 					<li>犬好き同士の交流</li>
@@ -243,7 +260,7 @@ $(".header").bgswitcher({
 				<h4>ONECOINは現在開発中のサービスです</h4>
 				<p>本サービスは2015年夏のサービスリリースを目指して現在開発中です。事前登録頂いた皆様には、率先して情報提供させて頂くとともに今後アンケートなどのご協力を頂くことがあります。もし本サービスの内容にご興味があり使ってみたいと思われた場合はぜひ下記のフォームより事前登録をお願いします。</p>
 				<p>その他のサービスに関するお問い合わせは下記にメールをお願いします。</p>
-				<p class="address"><i class="icon-envelop"></i> contact@onecoin-dog.com
+				<p class="address"><i class="icon-envelop"></i> contact@onecoindog.com
 			</div>
 
 		</div> <!-- /row-fluid -->
@@ -306,10 +323,10 @@ $(".header").bgswitcher({
 			  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
 			  fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
-			<div class="fb-share-button" data-href="https://onecoin-dog.herokuapp.com" data-layout="button_count"></div>
+			<div class="fb-share-button" data-href="http://onecoindog.com" data-layout="button_count"></div>
 			</div>
 			<div class="twitter">
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://onecoin-dog.herokuapp.com" data-lang="ja">ツイート</a>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://onecoindog.com" data-lang="ja">ツイート</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
 		</div>

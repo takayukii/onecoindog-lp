@@ -253,6 +253,12 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
   filter: alpha(opacity=70);
 }
 
+.share-front {
+  position: relative;
+  bottom: 25px;
+  z-index: 1;
+}
+
 /*
  * Grid features
  ******************************************************************************/
