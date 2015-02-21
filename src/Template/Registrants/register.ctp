@@ -45,7 +45,7 @@
 						<div class="fb-share-button" data-href="http://onecoindog.com" data-layout="button_count"></div>
 						</div>
 						<div class="twitter">
-							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://onecoindog.com" data-lang="ja">ツイート</a>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.onecoindog.com" data-lang="ja">ツイート</a>
 							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 						</div>
 					</div>
@@ -79,26 +79,23 @@ $(".header").bgswitcher({
 
 			<div class="span4 text-center grid-feature">
 				<div class="shape darkblue">
-					<i class="icon-home"></i>
 				</div>
 				<h3 class="title">いつもの散歩を<br>そのままシェア</h3>
-				<p style="text-align:left;">30分から1時間程度の散歩を犬好きのみんなにシェアしましょう。特別な散歩コースは必要ありません。やることは購入者と一緒に犬の散歩をするだけ。散歩は500円から値付けして登録することができます。</p>
+				<p style="text-align:left;">30分から1時間程度の散歩を犬好きのみんなにシェアしましょう！500円から値付けして登録することができます。</p>
 			</div>
 
 			<div class="span4 text-center grid-feature">
 				<div class="shape pink">
-					<i class="icon-comments"></i>
 				</div>
 				<h3 class="title">犬バナしながら<br>散歩しましょう</h3>
-				<p style="text-align:left;">応募者と一緒に犬の話や地域の話を楽しみながら散歩しましょう。散歩は「同性限定」「○歳代限定」など限定して登録ができ、あなたと応募者のスケジュールに合わせて散歩する日時を決めることができます。</p>
+				<p style="text-align:left;">応募者と一緒に犬の話や地域の話を楽しみながら散歩しましょう。犬好き同士会話は盛り上がるはずです！</p>
 			</div><!-- /span4 -->
 
 			<div class="span4 text-center grid-feature">
 				<div class="shape lightblue">
-					<i class="icon-smile"></i>
 				</div>
 				<h3 class="title">寄付で犬も喜ぶ<br>みんな嬉しい</h3>
-				<p style="text-align:left;">散歩すると登録したあなたの値付けに応じてONECOINを通して応募者からお金が支払われます。その全額あるいは一部を動物愛護の寄付団体を通して寄付する事ができます。<br>※具体的な団体などの詳細は調整中です。</p>
+				<p style="text-align:left;">散歩の後にあなたの値付けに応じてお金が支払われます。全額又は一部を動物愛護団体に寄付する事ができます。</p>
 			</div><!-- /span4 -->
 
 		</div> <!-- /row-fluid -->

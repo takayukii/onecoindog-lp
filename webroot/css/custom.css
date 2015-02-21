@@ -37,7 +37,7 @@
 }
 
 body {
-  font-family: Quicksand;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #505050;
@@ -290,8 +290,10 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 }
 
 .shape {
-  width: 161px;
-  height: 160px;
+  position: relative;
+  left: -20px;
+  width: 251px;
+  height: 250px;
   margin: 0 auto;
 
   -webkit-transition: 400ms all;
@@ -310,15 +312,18 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 }
 
 .shape.darkblue {
-  background: url(../img/circle-1.png);
+  background: url(../img/PICT01.png);
+  background-size: 100%;
 }
 
 .shape.pink {
-  background: url(../img/circle-2.png);
+  background: url(../img/PICT02.png);
+  background-size: 100%;
 }
 
 .shape.lightblue {
-  background: url(../img/circle-3.png);
+  background: url(../img/PICT03.png);
+  background-size: 100%;
 }
 
 .grid-feature .title {
