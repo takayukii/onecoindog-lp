@@ -51,7 +51,6 @@ EOF;
 				$email = new Email('default');
 				$email->to($to)
 					->cc('contact@onecoindog.com')
-					->bcc('takayukii@gmail.com', 'takashi_tsuchiya@relationsgroup.co.jp', 'keiko_morinishi@relationsgroup.co.jp')
 					->subject('ONECOINの事前登録ありがとうございました')
 					->send($body);
 
