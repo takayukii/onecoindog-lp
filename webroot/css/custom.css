@@ -191,7 +191,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{ font-size:
 
 #registrant {
   position: relative;
-  bottom: -100px;
+  bottom: -105px;
 }
 
 .registrant-message{
@@ -642,6 +642,58 @@ blockquote p {
 }
 .textimonial-image-6 {
   background: url(../img/dog_bg6.jpg) no-repeat center center;
+}
+
+/*
+ * Grid Feature2
+ ******************************************************************************/
+
+.grid-features2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.donation-list{
+  margin-top: 10px;
+}
+
+.donation-list ul, ol {
+  list-style: none;
+}
+
+.donation-list li {
+  float: left;
+}
+
+.donation-item{
+  height: 180px;
+  width: 220px;
+  border: 1px solid gray;
+  padding: 0 5px 0 5px;
+}
+
+.donation-item img{
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.onelove img{
+  margin-top: 45px;
+  width: 200px;
+  height: 80px;
+}
+
+.don-notice{
+  font-size: 8px;
+}
+
+.donation-item .title {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(226, 64, 129);
+  text-shadow: 0 1px 0 rgb(255, 255, 255);
+  text-transform: uppercase;
 }
 
 /*

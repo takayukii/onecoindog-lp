@@ -237,6 +237,101 @@ $(".header").bgswitcher({
 	</div>
 </div><!-- /pricing-table -->
 
+<div class="grid-features2">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12" style="text-align:center;">
+				<span class="feature-message">
+					<p>犬が喜ぶ寄付を一緒に</p>
+				</span>
+				<span class="feature-notice">
+					<p>支払われた金額の一部が<a href="http://onelove.cc/">ONE LOVEプロジェクト</a>を通して動物愛護の団体に寄付されます</p>
+					<p class="don-notice">※ システム利用料を差し引いた、利用者が任意に設定した比率（10%~100%）に応じた金額が寄付されます</p>
+				</span>
+			</div>
+			<div class="span12 donation-list" style="text-align:center;">
+				<ul>
+					<li>
+						<div class="donation-item" style="border-style: none dashed dashed none;">
+							<a href="http://www.npo-alis.org/">
+								<img src="/img/don_logo_01.jpg" />
+								<h5 class="title">NPO法人 日本動物生命尊重の会</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed dashed none;">
+							<a href="http://www.chibawan.net/">
+								<img src="/img/don_logo_02.jpg" />
+								<h5 class="title">ちばわん</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed dashed none;">
+							<a href="http://www.arkbark.net/">
+								<img src="/img/don_logo_03.jpg" />
+								<h5 class="title">NPO法人 アニマルレフュージ関西／ARK</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none none dashed none;">
+							<a href="http://www.wonderful-dogs.com/">
+								<img src="/img/don_logo_04.jpg" />
+								<h5 class="title">NPO法人 Wonderful Dogs</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed none none;">
+							<a href="http://i-dog.net/">
+								<img src="/img/don_logo_05.jpg" />
+								<h5 class="title">石川ドッグレスキュー</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed none none;">
+							<a href="http://www.inochinokai.com/">
+								<img src="/img/don_logo_06.jpg" />
+								<h5 class="title">動物いのちの会いわて</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed none none;">
+							<a href="http://dogshelter.jp/">
+								<img src="/img/don_logo_07.jpg" />
+								<h5 class="title">Dog Shelter</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item onelove" style="border-style: none none none none;">
+							<a href="http://onelove.cc/">
+								<img src="/img/don_logo_08.png" />
+							</a>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+			<div class="span12" style="text-align:right;">
+				<span class="feature-notice" style="text-align:right;">
+					<p class="don-notice">※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります。</p>
+				</span>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+
+
+
+		</div> <!-- /row-fluid -->
+	</div> <!-- /container -->
+</div><!-- /grid-features -->
+
 <div class="contact">
 
 	<div id="is-saved" style="display:none;"><?= $saved ?></div>
