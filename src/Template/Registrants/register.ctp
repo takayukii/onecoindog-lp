@@ -242,10 +242,10 @@ $(".header").bgswitcher({
 		<div class="row-fluid">
 			<div class="span12" style="text-align:center;">
 				<span class="feature-message">
-					<p>犬が喜ぶ寄付を一緒に</p>
+					<p>犬が喜ぶ寄付を愛犬と共に</p>
 				</span>
 				<span class="feature-notice">
-					<p>支払われた金額の一部が<a href="http://onelove.cc/">ONE LOVEプロジェクト</a>を通して動物愛護の団体に寄付されます</p>
+					<p><a href="http://onelove.cc/">ONE LOVEプロジェクト</a>を通じて、<a href="http://www.animaldonation.org/">アニマル・ドネーション</a>支援先の動物愛護団体に寄付されます</p>
 					<p class="don-notice">※ システム利用料を差し引いた、利用者が任意に設定した比率（10%~100%）に応じた金額が寄付されます</p>
 				</span>
 			</div>
@@ -284,7 +284,7 @@ $(".header").bgswitcher({
 						</div>
 					</li>
 					<li>
-						<div class="donation-item" style="border-style: none dashed none none;">
+						<div class="donation-item" style="border-style: none none dashed dashed;">
 							<a href="http://i-dog.net/">
 								<img src="/img/don_logo_05.jpg" />
 								<h5 class="title">石川ドッグレスキュー</h5>
@@ -308,9 +308,18 @@ $(".header").bgswitcher({
 						</div>
 					</li>
 					<li>
-						<div class="donation-item onelove" style="border-style: none none none none;">
-							<a href="http://onelove.cc/">
+						<div class="donation-item" style="border-style: none dashed none none;">
+							<a href="http://www.animal-heart-rescue.net/">
 								<img src="/img/don_logo_08.png" />
+								<h5 class="title">アニマル・ハート・レスキュー</h5>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="donation-item" style="border-style: none dashed none none;">
+							<a href="http://peace-wanko.jp/">
+								<img src="/img/don_logo_09.png" />
+								<h5 class="title">NPO法人 ピースウィンズ・ジャパン「ピースワンコ・ジャパン」プロジェクト</h5>
 							</a>
 						</div>
 					</li>
@@ -319,7 +328,12 @@ $(".header").bgswitcher({
 			</div>
 			<div class="span12" style="text-align:right;">
 				<span class="feature-notice" style="text-align:right;">
-					<p class="don-notice">※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります。</p>
+					<a href="http://onelove.cc/">
+						<img src="/img/onelove.jpg" style="width:150px;" />
+					</a>
+					<p class="don-notice">
+						※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
+					</p>
 				</span>
 			</div>
 		</div>
