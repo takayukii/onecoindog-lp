@@ -323,19 +323,22 @@ $(".header").bgswitcher({
 							</a>
 						</div>
 					</li>
+					<li>
+						<div class="donation-item onelove" style="border-style: none none none none;">
+							<img src="/img/don_paw.png" style="width:90px;position:relative;top:10px;"/>
+						</div>
+					</li>
 				</ul>
 
 			</div>
-			<div class="span12" style="text-align:right;">
-				<span class="feature-notice" style="text-align:right;">
-					<a href="http://onelove.cc/">
-						<img src="/img/onelove.jpg" style="width:150px;" />
-					</a>
-					<p class="don-notice">
-						※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
-					</p>
-				</span>
-			</div>
+			<div class="span12" style="text-align:center;margin:40px;position:relative;left:-20px;">
+				<a href="http://onelove.cc/">
+					<img src="/img/onelove.jpg" style="width:200px;" />
+				</a>
+				<p class="don-notice">
+					※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
+				</p>
+			</span>
 		</div>
 
 		<div class="row-fluid">
