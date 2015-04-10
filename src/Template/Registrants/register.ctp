@@ -333,7 +333,7 @@ $(".header").bgswitcher({
 			</div>
 			<div class="span12" style="text-align:center;margin:40px;position:relative;left:-20px;">
 				<a href="http://onelove.cc/">
-					<img src="/img/onelove.jpg" style="width:200px;" />
+					<img src="/img/onelove.jpg" style="width:220px;" />
 				</a>
 				<p class="don-notice">
 					※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
