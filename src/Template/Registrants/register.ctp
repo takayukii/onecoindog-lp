@@ -249,6 +249,7 @@ $(".header").bgswitcher({
 					<p class="don-notice">※ システム利用料を差し引いた、利用者が任意に設定した比率（10%~100%）に応じた金額が寄付されます</p>
 				</span>
 			</div>
+			<!--
 			<div class="span12 donation-list" style="text-align:center;">
 				<ul>
 					<li>
@@ -331,13 +332,14 @@ $(".header").bgswitcher({
 				</ul>
 
 			</div>
+			-->
 			<div class="span12" style="text-align:center;margin-top:40px;position:relative;left:-20px;">
 				<a href="http://onelove.cc/">
 					<img src="/img/onelove.jpg" style="width:220px;" />
-				</a>
+				</a><!--
 				<p class="don-notice">
 					※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
-				</p>
+				</p>-->
 			</div>
 		</div>
 
