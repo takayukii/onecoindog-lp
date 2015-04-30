@@ -35,6 +35,15 @@ $to 様
 もしよろしければこちらのアンケートもご記入よろしくお願いします。
 http://goo.gl/forms/kcSYln3zb5
 
+また、現在モニターご協力様を募集しております。
+
+■ 対象となる方
+犬を飼っている方で、4〜5月の土日祝に都内近郊にて1時間ほど犬と触れ合いたい人と
+一緒に愛犬の散歩をしていただける方。
+
+もしモニターにご協力頂ける場合は下記のフォームからご登録をお願い致します。
+https://docs.google.com/forms/d/1oftlYXFIGyHlGDCsWoL8Bnu4qg5QPBA9JIW0JRnJVU0/viewform
+
 その他にご質問等ございましたら下記のメールアドレスまでお気軽にお問い合わせください。
 contact@onecoindog.com
 
