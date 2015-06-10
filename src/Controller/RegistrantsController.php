@@ -27,7 +27,7 @@ class RegistrantsController extends AppController {
 $body = <<< EOF
 $to 様
 
-「歩いて寄付するお散歩マーケットプレイス ONECOIN」に事前登録頂き有難うございました。
+「歩いて寄付するお散歩シェアサービス ONE COIN」に事前登録頂き有難うございました。
 
 リリース時期が近づいて参りましたら率先してお知らせ致します。
 それまで、ご期待に応えられるサービスになるよう鋭意開発して参ります。
@@ -38,7 +38,7 @@ http://goo.gl/forms/kcSYln3zb5
 また、現在モニターご協力者様を募集しております。
 
 ■ 対象となる方
-犬を飼っている方で、4〜5月の土日祝に都内近郊にて1時間ほど犬と触れ合いたい人と
+犬を飼っている方で、6〜7月の土日祝に都内近郊にて1時間ほど犬と触れ合いたい人と
 一緒に愛犬の散歩をしていただける方。
 
 もしモニターにご協力頂ける場合は下記のフォームからご登録をお願い致します。
@@ -48,7 +48,7 @@ https://docs.google.com/forms/d/1oftlYXFIGyHlGDCsWoL8Bnu4qg5QPBA9JIW0JRnJVU0/vie
 contact@onecoindog.com
 
 ***************************************************************
-歩いて寄付するお散歩マーケットプレイス ONECOIN
+歩いて寄付するお散歩シェアサービス ONE COIN
 --
 URL:  http://onecoindog.com/
 MAIL: contact@onecoindog.com
@@ -60,7 +60,7 @@ EOF;
 				$email = new Email('default');
 				$email->to($to)
 					->cc('contact@onecoindog.com')
-					->subject('ONECOINの事前登録ありがとうございました')
+					->subject('ONE COINの事前登録ありがとうございました')
 					->send($body);
 
 			} else {

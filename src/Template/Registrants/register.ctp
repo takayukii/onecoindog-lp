@@ -71,7 +71,7 @@ $(".header").bgswitcher({
 					<p>愛犬との散歩、誰かといっしょに出かけませんか？</p>
 				</span>
 				<span class="feature-notice">
-					<p>ONECOINは犬の散歩をみんなでシェアする「お散歩マーケットプレイス」です</p>
+					<p>ONE COINは愛犬の散歩を誰かと一緒に歩く「お散歩シェアサービス」です</p>
 				</span>
 			</div>
 		</div>
@@ -95,7 +95,7 @@ $(".header").bgswitcher({
 				<div class="shape lightblue">
 				</div>
 				<h3 class="title">寄付で犬も喜ぶ<br>みんな嬉しい</h3>
-				<p style="text-align:left;">散歩の後にあなたの値付けに応じてお金が支払われます。全額又は一部を動物愛護団体に寄付する事ができます。</p>
+				<p style="text-align:left;">散歩の後にあなたの値付けに応じて応募者からポイントが支払われます。全ポイント又は一部を動物愛護団体に寄付する事ができます。</p>
 			</div><!-- /span4 -->
 
 		</div> <!-- /row-fluid -->
