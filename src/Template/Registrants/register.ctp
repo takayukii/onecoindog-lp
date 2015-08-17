@@ -245,11 +245,10 @@ $(".header").bgswitcher({
 					<p>犬が喜ぶ寄付を愛犬と共に</p>
 				</span>
 				<span class="feature-notice">
-					<p><a href="http://onelove.cc/">ONE LOVEプロジェクト</a>を通じて、<a href="http://www.animaldonation.org/">アニマル・ドネーション</a>支援先の動物愛護団体に寄付されます</p>
-					<p class="don-notice">※ システム利用料を差し引いた、利用者が任意に設定した比率（10%~100%）に応じた金額が寄付されます</p>
+					<p><a href="http://onelove.cc/">ONE LOVEプロジェクト</a>の一環として、<a href="http://www.animaldonation.org/">公益社団法人アニマル・ドネーション</a>を通して動物愛護団体に寄付されます</p>
+					<p class="don-notice">※ システム利用料を差し引いた、利用者が任意に設定した比率（50%~100%）に応じた金額が寄付されます</p>
 				</span>
 			</div>
-			<!--
 			<div class="span12 donation-list" style="text-align:center;">
 				<ul>
 					<li>
@@ -332,14 +331,13 @@ $(".header").bgswitcher({
 				</ul>
 
 			</div>
-			-->
 			<div class="span12" style="text-align:center;margin-top:40px;position:relative;left:-20px;">
 				<a href="http://onelove.cc/">
 					<img src="/img/onelove.jpg" style="width:220px;" />
-				</a><!--
+				</a>
 				<p class="don-notice">
 					※ 上記団体はONE LOVEプロジェクトを通して寄付実績のある団体例になります
-				</p>-->
+				</p>
 			</div>
 		</div>
 
@@ -369,7 +367,7 @@ $(".header").bgswitcher({
 				</ul>
 				<p> 犬が好きで犬を飼っている人にも、犬が好きだけど飼うのが難しい人にも、両者にとって役立つサービスになればと思います。 </p>
 				<h4>ONECOINは現在開発中のサービスです</h4>
-				<p>本サービスは2015年夏のサービスリリースを目指して現在開発中です。事前登録頂いた皆様には、率先して情報提供させて頂くとともに今後アンケートなどのご協力を頂くことがあります。もし本サービスの内容にご興味があり使ってみたいと思われた場合はぜひ下記のフォームより事前登録をお願いします。</p>
+				<p>本サービスは2015年9月中旬のサービスリリースを目指して現在開発中です。事前登録頂いた皆様には、率先して情報提供させて頂くとともに今後アンケートなどのご協力を頂くことがあります。もし本サービスの内容にご興味があり使ってみたいと思われた場合はぜひ下記のフォームより事前登録をお願いします。</p>
 				<p>その他のサービスに関するお問い合わせは下記にメールをお願いします。</p>
 				<p class="address"><i class="icon-envelop"></i> contact@onecoindog.com
 			</div>
